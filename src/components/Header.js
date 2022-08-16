@@ -4,22 +4,11 @@ import { useState, useEffect } from "react";
 
 
 const Header = props => {
-    const [headerIsChanged, setHeaderIsChanged] = useState('Hobbies');
-
-    useEffect(() => {
-        props.navigation.setOptions({
-            title: headerIsChanged,
-        });
-    }, [headerIsChanged]);
-
-};
-
-const changeHeader = (event) => {
-    setHeaderIsChanged(event.target.value);
-};
 
 return (
     <div className="header">
-
+        <h1>Hobbies</h1>
     </div>
-)
+)}
+
+export default Header;
