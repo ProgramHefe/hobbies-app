@@ -34,5 +34,7 @@
 }
 
 .gym-video {
-
+    align-self: center;
+    height: 600px;
+    width: 700px;
 }

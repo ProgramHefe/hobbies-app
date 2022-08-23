@@ -36,9 +36,10 @@ const Gym = () => {
                 </p>
             </div>
             <div className="gym-video">
-            <iframe 
+            <iframe
+                className="gym-video" 
                 title="Workout for beginners"
-                    src="https://www.youtube.com/embed/ixkQaZXVQjs&ab">
+                src="https://www.youtube.com/embed/ixkQaZXVQjs&ab">
             </iframe>
             <p>Here is a nice beginner workout if you got interested.</p>
             </div>
