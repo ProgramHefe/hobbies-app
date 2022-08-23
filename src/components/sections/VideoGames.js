@@ -2,13 +2,14 @@ import React from "react";
 import Games from '../../images/video-games.jpg'
 import CSGO from '../../images/csgo.jpg'
 import Uncharted from '../../images/uncharted.jpg'
+import './VideoGames.css'
 
 
 const VideoGames = () => {
 
     return (
-        <div>
-            <div>
+        <div className="container">
+            <div className="introduction">
                 <h1>Video Games</h1>
                 <img src={Games} alt="Video Games"></img>
                 <p>
@@ -18,8 +19,11 @@ const VideoGames = () => {
                     which you could not imagine.
                 </p>
             </div>
-            <img src={CSGO} alt="Counter Strike"></img>
-            <img src={Uncharted} alt="Uncharted game"></img>
+            <div className="favourite-games">
+                <h3>Favourite Games</h3>
+                <img src={CSGO} alt="Counter Strike"></img>
+                <img src={Uncharted} alt="Uncharted game"></img>
+            </div>
         </div>
     )
 }

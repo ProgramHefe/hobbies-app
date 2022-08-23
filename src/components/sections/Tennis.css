@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.mtb-introduction {
+.tennis-introduction {
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -11,13 +11,13 @@
 
 }
 
-.mtb-introduction h1 {
+.tennis-introduction h1 {
     text-transform: capitalize;
     align-self: center;
 
 }
 
-.my-gear {
+.tennis-gear {
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -25,7 +25,7 @@
 }
 
 
-.mtb-video {
+.tennis-video {
     align-self: center;
     height: 600px;
     width: 700px;

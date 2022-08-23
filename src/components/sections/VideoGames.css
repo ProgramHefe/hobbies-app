@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.mtb-introduction {
+.introduction {
     display: flex;
     flex-direction: column;
     border-style: solid;
@@ -11,22 +11,19 @@
 
 }
 
-.mtb-introduction h1 {
+.introduction h1 {
     text-transform: capitalize;
     align-self: center;
 
 }
 
-.my-gear {
+.favourite-games {
     display: flex;
     flex-direction: column;
     border-style: solid;
     border-width: 1px;
 }
 
-
-.mtb-video {
+.favourite-games h3 {
     align-self: center;
-    height: 600px;
-    width: 700px;
 }
