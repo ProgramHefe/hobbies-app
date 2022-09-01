@@ -1,4 +1,4 @@
-.container {
+.head-column {
     display: flex;
     flex-direction: column;
 }
@@ -14,6 +14,17 @@
 .gym-introduction h1 {
     text-transform: capitalize;
     align-self: center;
+    
+}
+
+.gym-picture{
+    align-self: center;
+}
+
+.gym-explanation {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    
     
 }
 

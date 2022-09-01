@@ -1,6 +1,9 @@
 .header {
-    background-color: aqua;
-    text-align: center;
-    height: 60px;
+    background-image: url('../images/banner-header.jpg')
 }
 
+.sub-header{
+    color: aliceblue;
+    text-align: center;
+    
+}

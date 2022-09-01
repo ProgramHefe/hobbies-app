@@ -4,11 +4,15 @@ import { useState, useEffect } from "react";
 
 
 
+
 const Header = props => {
 
 return (
-    <div className="header">
-        <h1>Hobbies</h1>
+    <div class="header">
+        <div class="sub-header">
+            <h1>My hobbies</h1>
+            <h2>There is no specific order i love them all</h2>
+        </div>
     </div>
 )}
 
