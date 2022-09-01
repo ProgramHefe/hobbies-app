@@ -8,11 +8,12 @@ import VideoGames from "./components/sections/VideoGames"
 import './App.css';
 
 function App() {
+
   return (
     <Fragment>
       <div className="background">
       <Header />
-      <Gym />
+      <Gym  />
       <Cycling />
       <Tennis />
       <VideoGames />
