@@ -19,7 +19,7 @@ const Gym = () => {
                         <h1>Gym</h1>
                     </Col> 
                 </Row>
-                <Row className="justify-content-md-center">
+                <Row className="gym-intro-row">
                     <Col xs={12} sm={4} md={4}>
                         <img fluid className="gym-picture" src={GymPic} alt="gym"></img>
                     </Col>
@@ -33,13 +33,13 @@ const Gym = () => {
                     </Col>
                 </Row>
             </div>
-            <div className="gym-shoes">
-                <Row>
+            <div className="gym-equipment">
+                <Row className="gym-equipment-row">
                     <Col>
                         <h3>Gym equipment</h3>
                     </Col>
-                    <Col>
-                        <img src={Shoes} alt="gym shoes" height="500"></img>
+                    <Col xs={12} sm={4} md={4}>
+                        <img fluid src={Shoes} alt="gym shoes" height="500"></img>
                         <p>
                             Gym shoes are essential item to use in gym. It helps you with
                             moves with barbell and gives you more confidence also! Plus side
@@ -49,7 +49,7 @@ const Gym = () => {
                 </Row>
             </div>
             <div className="gym-clothes">
-                <Row>
+                <Row className="gym-clothing-row">
                     <Col>
                         <h3>Clothing</h3>
                     </Col>
@@ -63,11 +63,11 @@ const Gym = () => {
                     </Col>
                 </Row>
             </div>
-            <div className="gym-video">
-                <Row>
+            <div className="gym-video-div">
+                <Row className="gym-video-row">
                     <Col>
                         <iframe
-                            className="gym-video" 
+                            className="gym-video"
                             title="Workout for beginners"
                             src="https://www.youtube.com/embed/ixkQaZXVQjs&ab">
                         </iframe>

@@ -13,8 +13,13 @@
 
 .gym-introduction h1 {
     text-transform: capitalize;
-    align-self: center;
-    
+    text-align: center;
+    background-image: url('../../images/my-background.jpg');
+    width: 100%;
+}
+
+.gym-intro-row{
+    background-image: url('../../images/my-background.jpg');
 }
 
 .gym-picture{
@@ -22,10 +27,26 @@
 }
 
 .gym-explanation {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 600;
-    
-    
+}
+
+.gym-equipment-row {
+    background-image: url('../../images/my-background.jpg');
+    border-style: solid;
+    border-width: 1px;
+}
+
+.gym-equipment-row p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.gym-equipment h3 {
+    text-transform: capitalize;
+        text-align: center;
+        background-image: url('../../images/my-background.jpg');
+        width: 100%;
 }
 
 .gym-shoes {
@@ -42,8 +63,40 @@
     border-width: 1px;
 }
 
+.gym-clothes p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.gym-clothing-row {
+    background-image: url('../../images/my-background.jpg');
+    border-style: solid;
+    border-width: 1px;
+}
+
+.gym-clothing-row h3 {
+    text-transform: capitalize;
+    text-align: center;
+    background-image: url('../../images/my-background.jpg');
+    width: 100%;
+}
+
+.gym-video-div{
+    background-image: url('../../images/my-background.jpg');
+}
+
+.gym-video-div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
 .gym-video {
-    align-self: center;
     height: 600px;
     width: 700px;
+    align-items: center;
 }
+
+.gym-video-row{
+    justify-content: center;
+}
+
