@@ -7,6 +7,7 @@ import GymPic from "../../images/gym.jpg"
 import Shoes from "../../images/Gym_Shoes.jpeg"
 import Clothes from "../../images/gym-clothes.jpg"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Gym.css'
 
 const Gym = () => {
@@ -33,28 +34,19 @@ const Gym = () => {
                     </Col>
                 </Row>
             </div>
-            <div className="gym-equipment">
                 <Row className="gym-equipment-row">
-                    <Col>
+                    <Col md={3}>
                         <h3>Gym equipment</h3>
-                    </Col>
-                    <Col xs={12} sm={4} md={4}>
-                        <img fluid src={Shoes} alt="gym shoes" height="500"></img>
+                        <img fluid src={Shoes} alt="gym shoes" width="700" height="400"></img>
                         <p>
                             Gym shoes are essential item to use in gym. It helps you with
                             moves with barbell and gives you more confidence also! Plus side
                             is that your feet does not smell bad either.
                         </p>
                     </Col>
-                </Row>
-            </div>
-            <div className="gym-clothes">
-                <Row className="gym-clothing-row">
-                    <Col>
+                    <Col md={3}>
                         <h3>Clothing</h3>
-                    </Col>
-                    <Col>
-                        <img src={Clothes} alt="gym clothes" height="500"></img>
+                    <img src={Clothes} alt="gym clothes" width="700" height="400"></img>
                         <p>
                              With durable and comfortable gym clothing you make your 
                              workouts feel more enjoyable and sweat does not feel bad
@@ -62,7 +54,6 @@ const Gym = () => {
                         </p>
                     </Col>
                 </Row>
-            </div>
             <div className="gym-video-div">
                 <Row className="gym-video-row">
                     <Col>
@@ -75,6 +66,7 @@ const Gym = () => {
                     </Col>
                 </Row>
             </div>
+            
         </Container>
     )
 }

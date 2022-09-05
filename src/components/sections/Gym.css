@@ -14,8 +14,10 @@
 .gym-introduction h1 {
     text-transform: capitalize;
     text-align: center;
+    font-size: 70px;
     background-image: url('../../images/my-background.jpg');
     width: 100%;
+    height: 120px;
 }
 
 .gym-intro-row{
@@ -35,6 +37,9 @@
     background-image: url('../../images/my-background.jpg');
     border-style: solid;
     border-width: 1px;
+    column-gap: 20%;
+    text-align: center;
+    justify-content: center;
 }
 
 .gym-equipment-row p {
@@ -42,44 +47,13 @@
     font-weight: 600;
 }
 
-.gym-equipment h3 {
+.gym-equipment-row h3 {
     text-transform: capitalize;
         text-align: center;
         background-image: url('../../images/my-background.jpg');
         width: 100%;
 }
 
-.gym-shoes {
-    display: flex;
-    flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.gym-clothes {
-    display: flex;
-    flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.gym-clothes p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-}
-
-.gym-clothing-row {
-    background-image: url('../../images/my-background.jpg');
-    border-style: solid;
-    border-width: 1px;
-}
-
-.gym-clothing-row h3 {
-    text-transform: capitalize;
-    text-align: center;
-    background-image: url('../../images/my-background.jpg');
-    width: 100%;
-}
 
 .gym-video-div{
     background-image: url('../../images/my-background.jpg');
