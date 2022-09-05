@@ -1,4 +1,4 @@
-.container {
+.head-column{
     display: flex;
     flex-direction: column;
 }
@@ -11,10 +11,21 @@
 
 }
 
+.tennis-intro-row{
+    background-image: url('../../images/yellow-top-gradient-background.jpg');
+}
+
 .tennis-introduction h1 {
     text-transform: capitalize;
-    align-self: center;
+    text-align: center;
+    background-image: url('../../images/yellow-top-gradient-background.jpg');
+    width: 100%;
 
+}
+
+.tennis-explanation{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .tennis-gear {
@@ -24,9 +35,31 @@
     border-width: 1px;
 }
 
+.tennis-gear h3{
+    text-transform: capitalize;
+    text-align: center;
+    background-image: url('../../images/yellow-top-gradient-background.jpg');
+    width: 100%;
+}
+
+.tennis-gear p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.tennis-gear-row{
+    background-image: url('../../images/yellow-top-gradient-background.jpg');
+    border-style: solid;
+    border-width: 1px;
+}
+
 
 .tennis-video {
-    align-self: center;
     height: 600px;
     width: 700px;
+}
+
+.tennis-video-row{
+    text-align: center;
+    background-image: url('../../images/yellow-top-gradient-background.jpg');
 }
