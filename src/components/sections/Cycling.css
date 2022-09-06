@@ -46,7 +46,7 @@
 }
 
 .mtb-video-row{
-    text-align: center;
+    text-align:center;
     background-image: url('../../images/background-cycling.jpg');
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600
@@ -55,4 +55,10 @@
 .mtb-video {
     height: 600px;
     width: 700px;
+}
+
+.mtb-video-description{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }

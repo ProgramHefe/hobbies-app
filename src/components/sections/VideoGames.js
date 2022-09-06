@@ -23,6 +23,8 @@ const VideoGames = () => {
                     <Col>
                         <img fluid src={Games} alt="Video Games"></img>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
                         <p>
                             Video games are good way to kill time and hang out with your friends online.
@@ -39,21 +41,15 @@ const VideoGames = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <img fluid src={CSGO} alt="Counter Strike"></img>
-                    </Col>
-                    <Col>
+                        <img fluid src={CSGO} alt="Counter Strike" height="500" width="700"></img>
                         <p>
                             Counter-Strike is a tactical shooter and it is based 
                             much on cummunications and temwork. It is best played
                             with friends and that is why i still play it regularly.
                          </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col>
-                        <img src={Uncharted} alt="Uncharted game"></img>
-                    </Col>
-                    <Col>
+                        <img src={Uncharted} alt="Uncharted game" height="500" width="700"></img>
                         <p>
                             Uncharted is action adventure game series that serves
                             you one of the best action scenes in gaming and memorable characters

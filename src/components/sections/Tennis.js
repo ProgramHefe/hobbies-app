@@ -24,8 +24,10 @@ const Tennis = () => {
                     <Col xs={12} sm={4} md={4}>
                         <img fluid src={Tenniss} alt="tennis"></img>
                     </Col>
+                </Row>
+                <Row className="tennis-intro-text">
                     <Col xs={12} sm={4} md={4}>
-                        <p className="tennis-explanation">
+                        <p>
                             Tennis is very nice way to get your competitive side pleasured.
                             It is nice way to get your hand-eye cordination better and stamina wise
                             too. You can play it 1v1 on 2v2.
@@ -34,22 +36,24 @@ const Tennis = () => {
                 </Row>
             </div>
             <div className="tennis-gear">
-                <Row className="tennis-gear-row">
-                    <Col >
+                <Row className="tennis-gear-header">
+                    <Col>
                         <h3>
                             Tennis Gear
                         </h3>
                     </Col>
-                    <Col>
-                        <img fluid src={Racquet} alt="Tennis racquet"></img>
+                </Row>
+                <Row className="tennis-gear-row">
+                    <Col xs={12} sm={4} md={4}>
+                        <img fluid src={Racquet} alt="Tennis racquet" height="500" width="800"></img>
                         <p>
                             Tennis racquet is essential for this hobby. There is
                             many different type of racquets and i recommend to start
                             with beginner friendly version.
                         </p>
                     </Col>
-                    <Col>
-                        <img fluid src={Shoes} alt="Tennis shoes"></img>
+                    <Col xs={12} sm={4} md={4}>
+                        <img fluid src={Shoes} alt="Tennis shoes" height="500" width="800"></img>
                         <p>
                             Tennis shoes are not that important but they give you edge 
                             with better grip and suitability to court. Running shoes
@@ -60,9 +64,12 @@ const Tennis = () => {
                 <Row className="tennis-video-row">
                     <iframe 
                         className="tennis-video"
+                        title="tennis tutorial"
                         src="https://www.youtube.com/embed/YqgcykDGB2A&ab">
                 
                         </iframe>
+                </Row>
+                <Row className="tennis-video-explanation">
                     <p>Little video for you to get to know each type of shot.</p>
                 </Row>
             </div>

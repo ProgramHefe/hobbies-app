@@ -8,6 +8,7 @@ import MyBike from '../../images/marlin7.jpg'
 import MyHelmet from '../../images/fox-mainframe.jpg'
 
 import './Cycling.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Cycling = () => {
 
@@ -53,6 +54,8 @@ const Cycling = () => {
                             src="https://www.youtube.com/embed/x_Gm4pW-AI8&ab">
                         </iframe>
                     </Col>
+                </Row>
+                <Row className="mtb-video-description">
                     <Col>
                         <p>
                             This video introduces mountain biking for you
@@ -60,6 +63,7 @@ const Cycling = () => {
                         </p>
                     </Col>
                 </Row>
+                
             </div>
         </Container>
     )

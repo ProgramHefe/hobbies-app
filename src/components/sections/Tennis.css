@@ -13,6 +13,7 @@
 
 .tennis-intro-row{
     background-image: url('../../images/yellow-top-gradient-background.jpg');
+    justify-content: center;
 }
 
 .tennis-introduction h1 {
@@ -23,10 +24,15 @@
 
 }
 
-.tennis-explanation{
+.tennis-intro-text{
+    justify-content: center;
+    width: 100%;
+    background-image: url('../../images/yellow-top-gradient-background.jpg');
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+
+
 
 .tennis-gear {
     display: flex;
@@ -51,6 +57,8 @@
     background-image: url('../../images/yellow-top-gradient-background.jpg');
     border-style: solid;
     border-width: 1px;
+    justify-content: center;
+    column-gap: 30%;
 }
 
 
@@ -60,6 +68,10 @@
 }
 
 .tennis-video-row{
-    text-align: center;
+    justify-content: center;
     background-image: url('../../images/yellow-top-gradient-background.jpg');
+}
+
+.tennis-video-explanation{
+    text-align: center;
 }
