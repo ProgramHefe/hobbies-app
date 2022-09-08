@@ -6,9 +6,6 @@
 .mtb-introduction {
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
-    background-image: url('../../images/background-cycling.jpg');
     text-align: center;
 
 }
@@ -16,7 +13,6 @@
 .mtb-introduction h1 {
     text-transform: capitalize;
     text-align: center;
-    background-image: url('../../images/background-cycling.jpg');
     width: 100%;
 }
 
@@ -28,14 +24,10 @@
 .my-gear {
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
-    background-image: url('../../images/background-cycling.jpg');
 }
 
 .my-gear h3{
     text-align: center;
-    background-image: url('../../images/background-cycling.jpg');
     width: 100%;
 }
 
@@ -47,7 +39,6 @@
 
 .mtb-video-row{
     text-align:center;
-    background-image: url('../../images/background-cycling.jpg');
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600
 }

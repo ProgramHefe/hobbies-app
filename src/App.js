@@ -10,15 +10,15 @@ import './App.css';
 function App() {
 
   return (
+    <div className="background">
     <Fragment>
-      <div className="background">
       <Header />
       <Gym  />
       <Cycling />
       <Tennis />
       <VideoGames />
-      </div>
     </Fragment>
+    </div>
   );
 }
 

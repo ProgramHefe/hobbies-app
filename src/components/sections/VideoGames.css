@@ -6,9 +6,6 @@
 .introduction {
     display: flex;
     flex-direction: column;
-    border-style: solid;
-    border-width: 1px;
-    background-image:url('../../images/red-top-gradient-background.jpg');
 
 }
 
@@ -29,10 +26,7 @@
 }
 
 .favourite-games {
-    background-image: url('../../images/red-top-gradient-background.jpg');
     text-align: center;
-    border-style: solid;
-    border-width: 1px;
 }
 
 .favourite-games p{  
@@ -42,5 +36,4 @@
 
 .favourite-games h3 {
     text-align: center;
-    background-image: url('../../images/red-top-gradient-background.jpg');
 }

@@ -15,8 +15,8 @@ const Gym = () => {
     return (
         <Container fluid>
             <div className="gym-introduction">
-                <Row>
-                    <Col className="head-column">
+                <Row className="gym-header">
+                    <Col>
                         <h1>Gym</h1>
                     </Col> 
                 </Row>

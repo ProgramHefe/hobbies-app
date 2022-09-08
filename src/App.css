@@ -3,9 +3,6 @@
 }
 
 .background {
-  background-image:
-      url("C: \Users\Hege\Downloads\AdobeStock_320014956.jpg");
-    background-size: "cover";
-    background-repeat: no-repeat;
-  
+  background-image: url("./images/website-background.jpg");
+  background-size: "cover";
 }
