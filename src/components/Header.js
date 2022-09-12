@@ -1,7 +1,6 @@
 import React from "react";
 import './Header.css'
-import { useState, useEffect } from "react";
-
+import 'react-sticky-header/styles.css';
 
 
 

@@ -9,7 +9,11 @@
 }
 
 .tennis-intro-row{
-    justify-content: center;
+    text-align: center;
+}
+
+.tennis-intro-text{
+    text-align: center;
 }
 
 .tennis-introduction h1 {

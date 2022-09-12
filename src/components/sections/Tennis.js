@@ -21,12 +21,12 @@ const Tennis = () => {
                     </Col>
                 </Row>
                 <Row className="tennis-intro-row">
-                    <Col xs={12} sm={4} md={4}>
+                    <Col>
                         <img fluid src={Tenniss} alt="tennis"></img>
                     </Col>
                 </Row>
                 <Row className="tennis-intro-text">
-                    <Col xs={12} sm={4} md={4}>
+                    <Col>
                         <p>
                             Tennis is very nice way to get your competitive side pleasured.
                             It is nice way to get your hand-eye cordination better and stamina wise
@@ -44,7 +44,7 @@ const Tennis = () => {
                     </Col>
                 </Row>
                 <Row className="tennis-gear-row">
-                    <Col xs={12} sm={4} md={4}>
+                    <Col>
                         <img fluid src={Racquet} alt="Tennis racquet" height="500" width="800"></img>
                         <p>
                             Tennis racquet is essential for this hobby. There is
@@ -52,7 +52,7 @@ const Tennis = () => {
                             with beginner friendly version.
                         </p>
                     </Col>
-                    <Col xs={12} sm={4} md={4}>
+                    <Col>
                         <img fluid src={Shoes} alt="Tennis shoes" height="500" width="800"></img>
                         <p>
                             Tennis shoes are not that important but they give you edge 

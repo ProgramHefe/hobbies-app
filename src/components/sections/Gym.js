@@ -24,29 +24,31 @@ const Gym = () => {
                     <Col xs={12} sm={4} md={4}>
                         <img fluid className="gym-picture" src={GymPic} alt="gym"></img>
                     </Col>
+                    <Row className="gym-explanation">
                     <Col xs={12} sm={4} md={4}>
-                        <p className="gym-explanation">
+                        <p>
                             This is my nr.1 hobby. It makes me forget all stressful things and makes my mind clear.
                             Going to gym is great hobby for everybody. You can train many ways to make your body
                             stronger and more durable. It helps much if you are doing sitting work. You get more 
                             flexible and your back pains gets a lot more sustainable. I recommend this to everyone.
                         </p>
                     </Col>
+                    </Row>
                 </Row>
             </div>
                 <Row className="gym-equipment-row">
-                    <Col md={3}>
+                    <Col>
                         <h3>Gym equipment</h3>
-                        <img fluid src={Shoes} alt="gym shoes" width="700" height="400"></img>
+                    <img fluid src={Shoes} alt="gym shoes" height="500" width="600"></img>
                         <p>
                             Gym shoes are essential item to use in gym. It helps you with
                             moves with barbell and gives you more confidence also! Plus side
                             is that your feet does not smell bad either.
                         </p>
                     </Col>
-                    <Col md={3}>
+                    <Col>
                         <h3>Clothing</h3>
-                    <img src={Clothes} alt="gym clothes" width="700" height="400"></img>
+                    <img src={Clothes} alt="gym clothes" height="500" width="600"></img>
                         <p>
                              With durable and comfortable gym clothing you make your 
                              workouts feel more enjoyable and sweat does not feel bad
